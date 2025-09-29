@@ -4,7 +4,7 @@ import com.guialves.service.tasks.application.dtos.NotificationRequest;
 import com.guialves.service.tasks.core.ports.NotificationPort;
 import org.springframework.stereotype.Service;
 
-@Service
+// @Service - Desativado para usar NotificationServiceClient
 public class EmailNotificationService implements NotificationPort {
     @Override
     public void sendNotification(NotificationRequest request) {
